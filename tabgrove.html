@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta name = "viewport" content = "user-scalable=no, width=device-width">
+        <link href = "tabgrove.css" rel="stylesheet" type ="text/css">
+        <script src = "controller.js"></script>
+        <script src = "display.js"></script>
+        <script src = "engine.js"></script>
+        <script src = "game.js"></script>
+        <script src="main.js"></script>
+        <title>TabGrove</title>
+    </head>
+
+    <body>
+        <div id = "menu">
+            <p>Menu</p>
+            <div id = "menuList">
+                <br>
+                <a href = "tabgrove.html?06">Stages</a>
+                <a href = "tabgrove.html?07">Collect</a>
+            </div>
+        </div>
+
+        <canvas></canvas>
+        
+        <script type = "text/javascript">
+            /*
+            let part = String(window.location).split("?")[1];
+
+            let parts = {
+                "06":["/controller.js", "/display.js", "/engine.js", "/game.js", "/main.js"],
+                "07":["/controller.js", "/display.js", "/engine.js", "/game.js", "/main.js"],
+            };
+
+            switch(part) {
+                case"07": part = "07";
+            }
+
+            for(let i = 0; i < parts[part].length; i++) {
+                let script = document.createElement("script");
+                script.setAttribute("type", "text/javascript");
+                script.setAttribute("src", parts[part][i]);
+                document.head.appendChild(script);
+            }
+
+            let menu = document.getElementById("menu");
+            let menuList = document.getElementById("menuList");
+
+            menu.addEventListener("click", function(event) {
+                menuList.style.display = (menuList.style.display == "none") ? "grid" : "none";
+            });
+            menuList.style.display = "none";*/
+        </script>
+    </body>
+</html>
